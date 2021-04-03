@@ -1,8 +1,5 @@
-let name = "Jason"
-print("Hello \(name)! Great to see you!")
+let names = ["Evan", "Connor", "Jared", "Alana", "Zoe"]
 
-let name_2 = "Jordan"
-print("\(name), meet \(name_2).")
-
-let name_3 = "Todd"
-print("\(name_3), I would like you to meet \(name) and \(name_2).")
+for name in names {
+    print("Dear \(name), today is going to be a good day, and here's why...")
+}
